@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "General Sans";
+  src: url("./font/GeneralSans-Medium.otf") format("woff2");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -196,7 +201,7 @@ body {
 }
 
 .about-text {
-  width: 25rem;
+  width: 30rem;
   min-width: 15rem;
 }
 
@@ -210,6 +215,7 @@ body {
 .about-text p {
   font-size: 18px;
   line-height: 1.5;
+  font-weight: 400;
   letter-spacing: 0.01em;
 }
 
@@ -224,35 +230,33 @@ body {
   border-radius: 2rem;
 }
 
-.subscribe{
-    padding-top: 6vw;
-    padding-left: 2vw;
+.subscribe {
+  padding-top: 6vw;
+  padding-left: 2vw;
 }
 
-.subscribe h4{
-    text-transform: uppercase;
-    font-weight: 500;
-    opacity: 0.6;
+.subscribe h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  opacity: 0.6;
 }
 
-.subscribe a{
-    text-decoration: none;
-    color: #fff;
+.subscribe a {
+  text-decoration: none;
+  color: #fff;
 }
 
 /* ----- Footer ----- */
 
-.footer{
-    display: flex;
-    justify-content: space-between;
-    padding:10vw 2vw 2vw ;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10vw 2vw 2vw;
 }
 
-.footer a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    padding: 0 2vw;
+.footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0 2vw;
 }
-
-
