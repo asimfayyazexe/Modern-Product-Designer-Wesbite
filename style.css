@@ -1,6 +1,6 @@
 @font-face {
   font-family: "General Sans";
-  src: url("./font/GeneralSans-Medium.otf") format("woff2");
+  src: url("./font/GeneralSans-Medium.otf") format("opentype");
 }
 
 * {
@@ -12,13 +12,13 @@
 
 html,
 body {
-  height: 100%;
   width: 100%;
   background-color: black;
   color: white;
 }
 
 .main {
+  height: 100%;
   width: 100%;
 }
 
@@ -252,7 +252,7 @@ body {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 10vw 2vw 2vw;
+  padding: 8vw 2vw 2vw;
 }
 
 .footer a {
