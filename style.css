@@ -31,6 +31,7 @@ body {
 .hero-section {
   height: 100vh;
   width: 100%;
+  position: relative;
 }
 
 .nav {
@@ -187,7 +188,7 @@ body {
 
 .about-section {
   width: 100%;
-  padding: 10vw 10vw 0;
+  padding: 15vw 10vw 0;
   padding-left: 35vw;
   display: flex;
 
@@ -231,7 +232,7 @@ body {
 }
 
 .subscribe {
-  padding-top: 6vw;
+  padding-top: 8vw;
   padding-left: 2vw;
 }
 
